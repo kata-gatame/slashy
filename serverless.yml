@@ -1,0 +1,22 @@
+service: serverless
+provider:
+  name: aws
+  runtime: rust
+  memorySize: 128
+
+package:
+  individually: true
+
+plugins:
+  - serverless-rust
+functions:
+  hello:
+    handler: ping
+    events:
+      - http:
+          path: '/'
+          method: GET
+
+custom:
+  rust:
+    dockerless: true
