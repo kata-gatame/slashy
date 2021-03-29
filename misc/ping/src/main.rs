@@ -23,7 +23,7 @@ mod tests {
     async fn ping_handles() {
         let request = Request::default();
         let expected = json!({
-            "message": "Go Serverless v1.0! Your function executed successfully!"
+            "message": "Pong!"
         })
         .into_response();
         let response = ping(request, Context::default())
