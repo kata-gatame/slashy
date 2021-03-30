@@ -1,1 +1,2 @@
 # slashy
+[![Build](https://img.shields.io/github/workflow/status/kata-gatame/slashy/Build?style=for-the-badge)](https://github.com/kata-gatame/slashy/actions/workflows/push.yaml) [![last-commit](https://img.shields.io/github/last-commit/kata-gatame/slashy?style=for-the-badge)](https://github.com/kata-gatame/slashy/commits/base) [![license](https://img.shields.io/github/license/kata-gatame/slashy?style=for-the-badge)](https://github.com/kata-gatame/slashy/blob/base/LICENSE)
